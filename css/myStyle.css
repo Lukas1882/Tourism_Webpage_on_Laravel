@@ -1,0 +1,97 @@
+.image {
+  font-size: 0;
+  text-align: center;
+  width: 200px;  /* Container's dimensions */
+  height: 150px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
+}
+
+.div
+{
+height:100px;
+width:100px;
+background:  no-repeat 100% 100%;
+
+
+}
+
+backme
+{
+  background: url('login2.jpg') no-repeat; 
+  background-size: 100%;
+}
+
+
+.lefty
+{
+  float:left;width:70%;
+}
+.righty
+{
+  float:right;width:30%
+}
+
+.varbarfix{
+  padding-top:-2px;
+}
+
+.container1
+    {
+        width: 100%; /* set the width that's you want */
+        margin: 0 auto;
+    }
+
+/*分割线*/
+.divider{
+    color:#fc6162;
+    width:100%;
+    margin:20px auto;
+    overflow:hidden;
+    text-align:left;   
+    line-height:1.2em;
+}
+
+.divider:before, .divider:after{
+    content:"";
+    vertical-align:top;
+    display:inline-block;
+    width:50%;
+    height:0.65em;
+    border-bottom:2px solid #fc6162;
+    margin:0 5% 0 -55%;
+}
+.divider:after{
+    margin:0 -55% 0 2%;
+}
+/*sidebar*/
+.leftsidebar{
+  width:50%;
+  display: inline;
+  height: 100%;
+  float: left;
+  ;
+
+}
+.rightsidebar{
+  width: 50%;
+  display: inline;
+  height: 100%;
+  float: right;
+ 
+
+}
+/*resoponsive img*/
+
+
+
+
